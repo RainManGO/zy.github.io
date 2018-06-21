@@ -1,0 +1,44 @@
+title: My personal blog - ZY
+email: 776210576@qq.com
+description: > # this means to ignore newlines until "baseurl:"
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+permalink: ':title/'
+baseurl: "/zy" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+
+# Author settings
+author: ZY # add your name
+author-pic: ZY.jpg
+about-author: 我是ZY（张宇），目前生活在济南，热爱电竞，喜欢电子数码产品。专注于移动开发主要涉及技术iOS，H5+CSS+JS，RN，MUI等
+
+# Contact links
+email: 776210576@qq.com
+phone: # Add your Phone number
+website: blog.csdn.net/ZY_FlyWay
+github: RainManGO # Add your Github handle
+
+# Newsletter
+mailchimp: # Add your MailChimp form identifier.
+
+# Disqus
+discus_identifier: mr-brown # Add your discus identifier
+
+# Tracker
+analytics: # Google Analytics
+
+# Paginate
+paginate: 6
+paginate_path: /page:num/
+
+# Build settings
+markdown: kramdown
+
+plugins:
+  - jekyll-paginate
+  - jekyll-feed
+  - jekyll-sitemap
+
+include: [_pages]
+exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock", "package-lock.json", "assets/css/sass/"]
